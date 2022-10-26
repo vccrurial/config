@@ -1,0 +1,53 @@
+alt + shift + r; s
+    pkill -USR1 -x sxhkd
+
+super + Return
+	st
+
+super + shift + Return 
+	st -c float_st
+
+super + v
+    st -c float_st -e nvim 
+
+super + shift + s
+    st -c pulsemixer -e pulsemixer
+
+super + e
+    emacsclient -c -a "emacs"
+
+alt + t
+	telegram-desktop
+
+alt + w; w
+	firefox -P "vcc"
+
+alt + w; n
+    firefox -P "normie"
+
+alt + w; u
+    firefox -P "university"
+
+alt + r
+	rofi -show run -show-icons
+
+alt + e 
+    rofi -show emoji
+
+alt + b; alt + j
+    brillo -U 10
+
+alt + b; alt + k
+    brillo -A 10
+
+XF86AudioMute
+    pamixer --toggle-mute
+
+XF86AudioRaiseVolume
+    pamixer -i 10
+
+XF86AudioLowerVolume
+    pamixer -d 10
+
+Print
+    flameshot gui
