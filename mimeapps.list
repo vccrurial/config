@@ -1,0 +1,33 @@
+[Default Applications]
+image/png=nsxiv.desktop
+image/jpeg=nsxiv.desktop
+x-scheme-handler/tg=userapp-Telegram Desktop-JUQGT1.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+x-scheme-handler/mailspring=Mailspring.desktop
+application/pdf=org.pwmt.zathura.desktop;
+inode/directory=userapp-st -e-2XE6S1.desktop;userapp-st-W8WET1.desktop;ranger.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=zaread.desktop
+application/msword=zaread.desktop
+
+[Added Associations]
+x-scheme-handler/tg=userapp-Telegram Desktop-5I5HS1.desktop;userapp-Telegram Desktop-JUQGT1.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+text/html=firefox.desktop;
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;
+application/vnd.openxmlformats=org.pwmt.zathura.desktop;org.pwmt.zathura-cb.desktop;
