@@ -30,4 +30,4 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
-application/vnd.openxmlformats=org.pwmt.zathura.desktop;org.pwmt.zathura-cb.desktop;
+application/vnd.openxmlformats=libreoffice-writer.desktop;org.pwmt.zathura.desktop;org.pwmt.zathura-cb.desktop;
