@@ -1,51 +1,44 @@
-alias o="xdg-open"
-alias v="nvim"
-alias cp="cp -v"
-alias mv="mv -v"
-alias mkd="mkdir -pv"
-alias chx="chmod +x"
-alias dv="doas nvim"
-alias dcp="doas cp -v"
-alias dmv="doas mv -v"
-alias dmkd="doas mkdir -pv"
+abbr -a o xdg-open
+abbr -a v nvim
+abbr -a cp cp -v
+abbr -a mv mv -v
+abbr -a mkd mkdir -pv
+abbr -a chx chmod +x
+abbr -a dv doas nvim
+abbr -a dcp doas cp -v
+abbr -a dmv doas mv -v
+abbr -a dmkd doas mkdir -pv
 
-alias ls="exa --color=always --group-directories-first"  # all files and dirs
-alias la="exa -al --color=always --group-directories-first --git" # my preferred listing
-alias ll="exa -l --color=always --group-directories-first --git -ahl"  # long format
-alias l=="exa -a | rg "^\.""
+abbr -a ls exa --color always --group-directories-first
+abbr -a la exa -al --color always --group-directories-first --git
+abbr -a ll exa -l --color always --group-directories-first --git -ahl
+abbr -a l  exa -a | rg ^\.
 
-#alias ls="exa --color=never --group-directories-first"  # all files and dirs
-#alias la="exa -al --color=never --group-directories-first --git" # my preferred listing
-#alias ll="exa -l --color=never --group-directories-first --git -ahl"  # long format
-#alias l=="exa -a | rg "^\.""
+abbr -a xs doas xbps-install -S
+abbr -a xr doas xbps-remove -Ro
+abbr -a xu doas xbps-install -Su
+abbr -a xq xbps-query -Rs
+abbr -a xbi xbps-install
+abbr -a xf xbps-fetch
+abbr -a q xbps-query
 
-alias xs="doas xbps-install -S"
-alias xr="doas xbps-remove -Ro"
-alias xu="doas xbps-install -Su"
-alias xq="xbps-query -Rs"
-alias xbi="xbps-install"
-alias xf="xbps-fetch"
-alias q="xbps-query"
+abbr -a z zathura
+abbr -a gc git clone
+abbr -a sx startx
+abbr -a ns nsxiv
+abbr -a bm bashmount
+abbr -a sv doas vsv
+abbr -a rr ranger
+abbr -a pa paru
 
-alias mkdwm="doas rm config.h; doas make clean install"
-alias z="zathura"
-alias gc="git clone"
-alias sx="startx"
-alias ns="nsxiv"
-alias pl="doas updatedb; plocate"
-alias bm="bashmount"
-alias sv="doas vsv"
-alias rr="ranger"
-alias pa="paru"
+abbr -a ea nvim ~/.config/shell/aliases
+abbr -a ef nvim ~/.config/fish/config.fish
+abbr -a ex nvim ~/.config/sxhkd/sxhkdrc
+abbr -a ep nvim ~/.config/shell/profile
 
-alias ea="nvim ~/.config/shell/aliases"
-alias ef="nvim ~/.config/fish/config.fish"
-alias ex="nvim ~/.config/sxhkd/sxhkdrc"
-alias ep="nvim ~/.config/shell/profile"
+abbr -a frc source ~/.config/fish/config.fish
+abbr -a resx pkill -USR1 -x
+abbr -a rm trash-put
 
-alias frc="source ~/.config/fish/config.fish"
-alias resx="pkill -USR1 -x"
-alias rm="trash-put"
-
-alias sys="systemctl"
-alias dsys="doas systemctl"
+abbr -a sys systemctl
+abbr -a dsys doas systemctl
