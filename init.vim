@@ -8,6 +8,7 @@
 call plug#begin('~/.config/nvim/plugged')
  
 " THEMES
+Plug 'olivertaylor/vacme'
 Plug 'ayu-theme/ayu-vim'
 Plug 'andreasvc/vim-256noir'
 Plug 'tomasr/molokai'
@@ -73,7 +74,6 @@ call plug#end()
 set cursorline
 let &t_SI .= "\<Esc>[?2004h"
 let &t_EI .= "\<Esc>[?2004l"
-vim.notify = require("notify")
 
 inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 
@@ -95,13 +95,12 @@ set smartindent
 autocmd Filetype cpp setlocal tabstop=2 shiftwidth=2 smarttab expandtab smartindent 
 autocmd Filetype python setlocal tabstop=4 shiftwidth=4 smarttab expandtab smartindent 
 
-set termguicolors
+" set termguicolors
 let mapleader=','
 command! -nargs=1 Ss let @/ = <q-args>
 let g:NERDTreeWinPos = "left"
 set langmenu=en_US.UTF-8  
 set background=dark
-language messages en
 set ff=unix
 set nu rnu   
 set ma
@@ -144,7 +143,7 @@ set smartindent
 set hidden
 " set wrap
 set guioptions=Ace 
-colo dracula
+" colo vacme
 set t_Co=256
 set nocompatible
 " syntax enable
