@@ -7,6 +7,9 @@ super + Return
 super + shift + Return 
 	st -c float_st
 
+alt + f
+    thunar
+
 super + v
     st -c float_st -e nvim 
 
@@ -34,11 +37,8 @@ alt + r
 alt + e 
     rofi -show emoji
 
-alt + b; alt + j
-    brillo -U 10
-
-alt + b; alt + k
-    brillo -A 10
+alt + b; alt + {k,j}
+    brightnessctl s {+10%,10%-}
 
 XF86AudioMute
     pamixer --toggle-mute
