@@ -19,7 +19,7 @@ export GTK2_RC_FILES="$XDG_CONFIG_HOME/gtk-2.0/gtkrc"
 export VIS_PATH="$XDG_CONFIG_HOME/vis/"
 #export HISTFILE="${XDG_CACHE_HOME:-$HOME/.cache}/zsh/history"
 
-export RUBY="/usr/lib/ruby/gems/3.1.0/bin"
+export RUBY="/home/vcc/.local/share/gem/ruby/3.0.0/bin"
 export RVM="/home/vcc/.rvm/bin"
 export ROSWELL="/home/vcc/.roswell/bin"
 export GDK_SCALE=1
