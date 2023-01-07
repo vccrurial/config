@@ -4,7 +4,6 @@ end
 
 source ~/.config/shell/aliases
 source ~/.config/shell/profile
-source /etc/profile.d/plan9.sh
 set fish_greeting
 fish_vi_key_bindings
 # fish_add_path /home/vcc/.local/bin
